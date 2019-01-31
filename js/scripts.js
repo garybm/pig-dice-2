@@ -35,18 +35,20 @@ function diceRoll() {
   status.innerHTML = "You rolled: "+ die+"." ;
 }
 
-for(var i !== 1, i > 1, i++) {
-  return roundTotal += die;
-}else {
-  return roundTotal = 0;
-}
 
-if(diceRoll() === 1) {
-  return roundTotal = 0;
-}else(diceRoll() > 1 && diceRoll() <=6){
-  return
 
-}
+// for(var i !== 1, i > 1, i++) {
+//   return roundTotal += die;
+// }else {
+//   return roundTotal = 0;
+// }
+//
+// if(diceRoll() === 1) {
+//   return roundTotal = 0;
+// }else(diceRoll() > 1 && diceRoll() <=6){
+//   return
+//
+// }
 
 
 
