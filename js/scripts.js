@@ -24,16 +24,30 @@
 //   }
 // }
 //
+function Player() {
+  this.roundTotal = 0;
+  this.total = 0;
+}
+
 
 function diceRoll() {
-
   var roundTotal = document.getElementById("roundTotal");
   var status = document.getElementById("status");
   var die = Math.floor(Math.random() * 6)+1;
   console.log(die);
   roundTotal.innerHTML = die;
   status.innerHTML = "You rolled: "+ die+"." ;
+
 }
+
+//   if(die === 1){
+//         roundTotal.innerHTML += "0";
+//     }
+//     else if (die !== 1){
+//           roundTotal.innerHTML =;
+//       }
+// }
+console.log(status);
 
 
 
@@ -67,6 +81,7 @@ function diceRoll() {
 
      $("#nameChart").show();
      $("#playerName").hide();
+     $("#pinkWell").hide();
 
 
 
